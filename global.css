@@ -1,0 +1,13 @@
+body {
+    background-color: #121212;
+    margin: 40px;
+    padding: 0;
+}
+
+
+main {
+    color: white;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}

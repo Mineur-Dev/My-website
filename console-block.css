@@ -1,0 +1,14 @@
+.console-block {
+  background-color: #121212;
+  color: #eee;
+  font-family: monospace;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  white-space: pre-wrap; 
+  overflow-x: auto;
+
+  display: inline-block;  
+  max-width: 100%;        
+  word-wrap: break-word;  
+}

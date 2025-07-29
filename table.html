@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webpage</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="returnhomebtn.css">
+    <link rel="stylesheet" href="console-block.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="button">
+                <div class="container">
+                    <div class="folder folder_one"></div>
+                    <div class="folder folder_two"></div>
+                    <div class="folder folder_three"></div>
+                    <div class="folder folder_four"></div>
+                </div>
+                <div class="active_line"></div>
+                <span class="text">File Explorer</span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Usable tags to make a table:<br>
+            <code>&lt;caption&gt;</code>: the title of the table<br>
+            <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;tfoot&gt;</code>: represent the table's head, body, and footer.
+            </p>
+
+            <p>
+            <code>&lt;tr&gt;</code>: defines a row in the table, like a "section"<br>
+            <code>&lt;th&gt;</code>: a "header cell", usually used inside <code>&lt;thead&gt;</code> or <code>&lt;tfoot&gt;</code><br>
+            <code>&lt;td&gt;</code>: a regular cell, used inside <code>&lt;tbody&gt;</code>
+            </p>
+
+            <p>
+            <code>colspan</code> and <code>rowspan</code>: these are attributes for <code>&lt;th&gt;</code> or <code>&lt;td&gt;</code> tags. They allow cells to span multiple columns or rows.<br>
+            Example: <code>&lt;td colspan="2"&gt;&lt;/td&gt;</code>
+            </p>
+            <h2>code :</h2>
+            <div class="console-block">
+&lt;table&gt;
+  &lt;caption&gt;Fruit or Vegetable ?&lt;/caption&gt;
+  &lt;tr&gt;
+    &lt;th&gt;name&lt;/th&gt;
+    &lt;td&gt;Carrot&lt;/td&gt;
+    &lt;td&gt;Apple&lt;/td&gt;
+    &lt;td&gt;Tomato&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Fruits&lt;/th&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;Yes&lt;/td&gt;
+    &lt;td rawspan="2"&gt;It's a fruit, but it's often eaten like a vegetable&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Vegetable&lt;/th&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;Yes&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+            </div>
+            <h2>Visual :</h2>
+            <article>
+                <table>
+                    <caption>Fruit or Vegetable ?</caption>
+                    <tr>
+                        <th>name</th>
+                        <td>Carrot</td>
+                        <td>Apple</td>
+                        <td>Tomato</td>
+                    </tr>
+                    <tr>
+                        <th>Fruits</th>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td rowspan="2">It's a fruit, but it's often eaten like a vegetable</td>
+                    </tr>
+                    <tr>
+                        <th>Vegetable</th>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                    </table>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

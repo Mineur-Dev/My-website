@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webpage</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="returnhomebtn.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="button">
+                <div class="container">
+                    <div class="folder folder_one"></div>
+                    <div class="folder folder_two"></div>
+                    <div class="folder folder_three"></div>
+                    <div class="folder folder_four"></div>
+                </div>
+                <div class="active_line"></div>
+                <span class="text">File Explorer</span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>The Lists</h1>
+            <p>This is an unordered list</p>
+            <ul>
+                <li>Those</li>
+                <li>are</li>
+                <li>the</li>
+                <li>elements</li>
+                <li>of</li>
+                <li>my</li>
+                <li>list</li>
+            </ul>
+            <p>and this is an ordered list <em>(I can modify the type and it change the thing before the elements)</em></p>
+            <ol type="1">
+                <li>did</li>
+                <li>you</li>
+                <li>see</li>
+                <li>the</li>
+                <li>difference?</li>
+            </ol>
+            <p>in the unordered list it write dots before the elements <br>in the ordered list it write numbers before the elements</p>
+            <article>
+                <h2>The type difference :</h2>
+                <p>here is a type="1"</p>
+                <ol type="1">
+                    <li>element</li>
+                    <li>element</li>
+                </ol>
+                <p>here is a type="A"</p>
+                <ol type="A">
+                    <li>element</li>
+                    <li>element</li>
+                </ol>
+                <p>here is a type="I"</p>
+                <ol type="I">
+                    <li>element</li>
+                    <li>element</li>
+                </ol>
+                <p>The start can also be changed by using ol start="3" (or any other number)</p>
+                <p>you can change the number of an element by using attribute value in the li li value="6"</p>
+                <p>the attribute reversed in ol reverse the list, it will start it by the end</p>
+                <p>it is possible to do list in a list like this</p>
+                <ul>
+                    <li>categorie 1
+                        <ol>
+                            <li>object 1</li>
+                            <li>object 2</li>
+                        </ol>
+                    </li>
+                    <li>categorie 2
+                        <ol>
+                            <li>object 1</li>
+                            <li>object 2</li>
+                        </ol>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
